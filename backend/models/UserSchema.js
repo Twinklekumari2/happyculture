@@ -48,6 +48,9 @@ const userSchema = new mongoose.Schema(
       type: String,
       enum: ["admin", "lead", "volunteer"],
       default: "volunteer"
+    },
+    uuid:{
+      type:String,
     }
   },
   { timestamps: true },
