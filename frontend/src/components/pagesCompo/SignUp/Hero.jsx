@@ -30,6 +30,15 @@ const Hero = () => {
           </div>
 
           <div className="input-group">
+            <label>Profile-Pic</label>
+            <input
+              type="text"
+              placeholder="Enter your profile picture URL"
+              required
+            />
+          </div>
+          
+          <div className="input-group">
             <label>Password</label>
             <input
               type={showPassword ? "text" : "password"}
