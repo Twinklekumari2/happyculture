@@ -1,0 +1,52 @@
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  animation: slideDown 0.3s ease-out;
+  padding-bottom: 4px;
+  background: white;
+}
+
+.fixed-header h1, 
+.fixed-header p, 
+.fixed-header h3 {
+  color: black;
+}
+
+.fixed-header .join-us{
+  color: white;
+}
+
+/* ✅ FIXED: removed width/height conflict */
+.fixed-header img{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  display: block;
+  border-radius: 50%;
+}
+
+/* optional spacing */
+.fixed-header .img-cont{
+  padding: 5px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px){
+  .fixed-header img{
+    left: 3%;
+  }
+
+  .fixed-header{
+    padding-top: 4px;
+    padding-bottom: 0px; /* fixed typo */
+  }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
