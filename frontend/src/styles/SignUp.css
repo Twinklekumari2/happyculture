@@ -104,3 +104,45 @@ button:hover {
     padding: 25px;
   }
 }
+
+.show-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.show-password div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: #2563eb;
+  font-size: 14px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.upload-btn {
+  display: inline-block;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  background: white;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #ccc; 
+  box-sizing: border-box;
+}
+
+.upload-btn:hover {
+  background: white;
+}

@@ -30,11 +30,17 @@ const Hero = () => {
           </div>
 
           <div className="input-group">
-            <label>Profile-Pic</label>
+            <label>Profile Picture</label>
+
+            <label htmlFor="profilePic" className="upload-btn">
+              📷 Choose Profile Picture
+            </label>
+
             <input
-              type="text"
-              placeholder="Enter your profile picture URL"
-              required
+              id="profilePic"
+              type="file"
+              accept="image/*"
+              hidden
             />
           </div>
           
