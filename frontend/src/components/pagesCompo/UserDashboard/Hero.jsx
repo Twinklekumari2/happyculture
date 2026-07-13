@@ -97,16 +97,16 @@ export default function Hero() {
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           <a href="#" className="flex items-center justify-center gap-2 p-3 bg-slate-50 hover:bg-blue-50 text-slate-700 hover:text-blue-600 border border-slate-200 rounded-lg transition-colors font-medium text-sm">
-            <RiFacebookLine size={18} />
+            <RiFacebookLine size={18} />Facebook
           </a>
           <a href="#" className="flex items-center justify-center gap-2 p-3 bg-slate-50 hover:bg-sky-50 text-slate-700 hover:text-sky-500 border border-slate-200 rounded-lg transition-colors font-medium text-sm">
-            <RiTwitterXLine size={18}/>
+            <RiTwitterXLine size={18}/>Twitter
           </a>
           <a href="#" className="flex items-center justify-center gap-2 p-3 bg-slate-50 hover:bg-pink-50 text-slate-700 hover:text-pink-600 border border-slate-200 rounded-lg transition-colors font-medium text-sm">
-            <RiInstagramLine size={18}/>
+            <RiInstagramLine size={18}/>Instagram
           </a>
           <a href="#" className="flex items-center justify-center gap-2 p-3 bg-slate-50 hover:bg-indigo-50 text-slate-700 hover:text-indigo-600 border border-slate-200 rounded-lg transition-colors font-medium text-sm">
-            <RiLinkedinLine size={18}/>
+            <RiLinkedinLine size={18}/>Linkedin
           </a>
         </div>
       </div>
